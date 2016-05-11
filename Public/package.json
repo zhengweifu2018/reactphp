@@ -4,7 +4,8 @@
   "description": "This is a react php test",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --proxy \"localhost/reactphp/index.php\" --files \"./dist/**/*.*\"",
+    "index": "browser-sync start --proxy \"localhost/reactphp/index.php\" --files \"./dist/**/*.*\"",
+    "runsrc": "browser-sync start --proxy \"localhost/reactphp/index.php/Home/Runsrc\" --files \"../**/*.*\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
