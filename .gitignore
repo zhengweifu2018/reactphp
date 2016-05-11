@@ -1,0 +1,10 @@
+.DS_Store
+uploads
+.idea
+Runtime
+.sass-cache
+*.map
+node_modules
+*.log
+*.swp
+*~
