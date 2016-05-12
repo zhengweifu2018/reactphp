@@ -5,7 +5,8 @@ module.exports = {
   // cache: true,
 
   entry: {
-    index: './src/home/index/index.js'
+    index: './src/home/index/index.js',
+    redux: './src/home/redux/index.js'
   },
 
   output: {

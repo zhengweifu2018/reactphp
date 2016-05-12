@@ -6,6 +6,7 @@
   "scripts": {
     "index": "browser-sync start --proxy \"localhost/reactphp/index.php\" --files \"./dist/**/*.*\"",
     "runsrc": "browser-sync start --proxy \"localhost/reactphp/index.php/Home/Runsrc\" --files \"../**/*.*\"",
+    "redux": "browser-sync start --proxy \"localhost/reactphp/index.php/Home/Redux\" --files \"./dist/**/*.*\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -28,7 +29,9 @@
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
     "react-redux": "^4.4.5",
+    "react-sparklines": "^1.5.2",
     "redux": "^3.5.2",
+    "redux-promise": "^0.5.3",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
